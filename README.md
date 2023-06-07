@@ -12,7 +12,7 @@ This module will help users to setting of controls on OUs
 AWS
 ## Note
 - This module is capable for five level of organization units.
-- User has to var: controltower_controls (map of object) in which key should be name of parent OU(only for first level) or name of parent OU/child OU.
+- User has to make sure that var: controltower_controls (map of object) in which key should be name of parent OU(only for first level) or name of parent OU/child OU.
 
 ## Input
 | Name | Description | Type | Default | Required |
